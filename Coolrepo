@@ -1,0 +1,35 @@
+{
+  "name": "Cool repo",
+  "identifier": "Com.cooktop.repo",
+  "subtitle": "",
+  "description": "Cool tepo",
+  "iconURL": "",
+  "website": "",
+  "apps": [
+    {
+      "name": "Ipogo",
+      "bundleIdentifier": "com.nianticlabs.pokemongo",
+      "developerName": "Me",
+      "subtitle": "Hacked pokemon",
+      "localizedDescription": "Hacked pokemon",
+      "iconURL": "https://i.imgur.com/zGh20jH.png",
+      "tintColor": "",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "Idk",
+          "localizedDescription": "",
+          "downloadURL": "https://ipogo.app/download/ipogo-4.2.4.ipa",
+          "size": "Idk",
+          "minOSVersion": ""
+        }
+      ],
+      "version": "1.0.0",
+      "versionDate": "Idk",
+      "versionDescription": "",
+      "downloadURL": "https://ipogo.app/download/ipogo-4.2.4.ipa",
+      "size": "Idk"
+    }
+  ]
+}
