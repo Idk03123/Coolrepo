@@ -1,35 +1,510 @@
 {
   "name": "Cool repo",
   "identifier": "Com.cooktop.repo",
-  "subtitle": "",
-  "description": "Cool tepo",
+  "subtitle": "Open-source apps & emulators",
+  "description": "A curated collection of open-source iOS apps, emulators, and utilities.",
   "iconURL": "",
   "website": "",
   "apps": [
     {
-      "name": "Ipogo",
+      "name": "iPogo",
       "bundleIdentifier": "com.nianticlabs.pokemongo",
-      "developerName": "Me",
-      "subtitle": "Hacked pokemon",
-      "localizedDescription": "Hacked pokemon",
+      "developerName": "iPogo Team",
+      "subtitle": "Pokemon GO with extras",
+      "localizedDescription": "Modified Pokemon GO client with additional features.",
       "iconURL": "https://i.imgur.com/zGh20jH.png",
       "tintColor": "",
       "screenshotURLs": [],
       "versions": [
         {
-          "version": "1.0.0",
-          "date": "Idk",
+          "version": "4.2.4",
+          "date": "2024-01-01",
           "localizedDescription": "",
           "downloadURL": "https://ipogo.app/download/ipogo-4.2.4.ipa",
-          "size": "Idk",
+          "size": 0,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "version": "4.2.4",
+      "versionDate": "2024-01-01",
+      "versionDescription": "",
+      "downloadURL": "https://ipogo.app/download/ipogo-4.2.4.ipa",
+      "size": 0
+    },
+    {
+      "name": "UTM",
+      "bundleIdentifier": "com.utmapp.UTM",
+      "developerName": "Turing Software",
+      "subtitle": "Virtual machines on iOS",
+      "localizedDescription": "Run Windows, Linux, and other operating systems on your iPhone or iPad. UTM is an open-source virtualization app based on QEMU.",
+      "iconURL": "https://avatars.githubusercontent.com/u/64533908?s=200&v=4",
+      "tintColor": "5856D6",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "4.7.4",
+          "date": "2025-09-15",
+          "localizedDescription": "Latest stable release.",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.4/UTM.ipa",
+          "size": 0,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "version": "4.7.4",
+      "versionDate": "2025-09-15",
+      "versionDescription": "Latest stable release.",
+      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.4/UTM.ipa",
+      "size": 0
+    },
+    {
+      "name": "UTM SE",
+      "bundleIdentifier": "com.utmapp.UTM-SE",
+      "developerName": "Turing Software",
+      "subtitle": "VMs without JIT requirement",
+      "localizedDescription": "Slow Edition of UTM that runs on any iOS version without needing JIT. Slower than regular UTM but works on the latest iOS.",
+      "iconURL": "https://avatars.githubusercontent.com/u/64533908?s=200&v=4",
+      "tintColor": "5856D6",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "4.7.4",
+          "date": "2025-09-15",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.4/UTM.SE.ipa",
+          "size": 0,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "version": "4.7.4",
+      "versionDate": "2025-09-15",
+      "versionDescription": "",
+      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.4/UTM.SE.ipa",
+      "size": 0
+    },
+    {
+      "name": "PPSSPP",
+      "bundleIdentifier": "org.ppsspp.ppsspp",
+      "developerName": "Henrik Rydgard",
+      "subtitle": "PSP emulator",
+      "localizedDescription": "Open-source PSP emulator. Play your PSP games on iPhone and iPad in HD.",
+      "iconURL": "https://www.ppsspp.org/img/logo.png",
+      "tintColor": "F39A1F",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.20.3",
+          "date": "2026-03-03",
+          "localizedDescription": "Latest stable release.",
+          "downloadURL": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.3/PPSSPP-iOS-v1.20.3.ipa",
+          "size": 0,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "version": "1.20.3",
+      "versionDate": "2026-03-03",
+      "versionDescription": "Latest stable release.",
+      "downloadURL": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.3/PPSSPP-iOS-v1.20.3.ipa",
+      "size": 0
+    },
+    {
+      "name": "Delta",
+      "bundleIdentifier": "com.rileytestut.Delta",
+      "developerName": "Riley Testut",
+      "subtitle": "Multi-system retro emulator",
+      "localizedDescription": "All-in-one classic video game emulator. Plays NES, SNES, Game Boy, Game Boy Color, Game Boy Advance, DS, N64, and Genesis games.",
+      "iconURL": "https://i.imgur.com/Bq9ZSef.png",
+      "tintColor": "F1B600",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.6",
+          "date": "2024-04-17",
+          "localizedDescription": "Free version of Delta.",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6.ipa",
+          "size": 0,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "version": "1.6",
+      "versionDate": "2024-04-17",
+      "versionDescription": "",
+      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6.ipa",
+      "size": 0
+    },
+    {
+      "name": "Clip",
+      "bundleIdentifier": "com.rileytestut.Clip",
+      "developerName": "Riley Testut",
+      "subtitle": "Universal clipboard manager",
+      "localizedDescription": "Free, open-source clipboard manager that runs in the background and saves your clipboard history.",
+      "iconURL": "https://cdn.altstore.io/file/altstore/apps/clip/icon.png",
+      "tintColor": "9B30CC",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.2",
+          "date": "2020-12-04",
+          "localizedDescription": "",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/clip/1_2.ipa",
+          "size": 0,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "version": "1.2",
+      "versionDate": "2020-12-04",
+      "versionDescription": "",
+      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/clip/1_2.ipa",
+      "size": 0
+    },
+    {
+      "name": "AltStore",
+      "bundleIdentifier": "com.rileytestut.AltStore",
+      "developerName": "Riley Testut",
+      "subtitle": "Alternative app store",
+      "localizedDescription": "AltStore is an alternative app store for iOS that allows you to install apps without jailbreaking.",
+      "iconURL": "https://cdn.altstore.io/file/altstore/apps/altstore/icon.png",
+      "tintColor": "00B3A1",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.6.3",
+          "date": "2023-12-12",
+          "localizedDescription": "",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/altstore.ipa",
+          "size": 0,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "version": "1.6.3",
+      "versionDate": "2023-12-12",
+      "versionDescription": "",
+      "downloadURL": "https://cdn.altstore.io/file/altstore/altstore.ipa",
+      "size": 0
+    },
+    {
+      "name": "DolphiniOS",
+      "bundleIdentifier": "me.oatmealdome.DolphiniOS",
+      "developerName": "OatmealDome",
+      "subtitle": "GameCube & Wii emulator",
+      "localizedDescription": "Port of the Dolphin emulator to iOS. Play GameCube and Wii games on your iPhone or iPad.",
+      "iconURL": "https://avatars.githubusercontent.com/u/3884240?v=4",
+      "tintColor": "1A4F9B",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "5.0.27",
+          "date": "2024-12-01",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.27/DolphiniOS-njb.ipa",
+          "size": 0,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "version": "5.0.27",
+      "versionDate": "2024-12-01",
+      "versionDescription": "",
+      "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.27/DolphiniOS-njb.ipa",
+      "size": 0
+    },
+    {
+      "name": "Provenance",
+      "bundleIdentifier": "org.provenance-emu.provenance",
+      "developerName": "Provenance Team",
+      "subtitle": "Multi-system emulator",
+      "localizedDescription": "Multi-system retro emulator supporting many classic platforms.",
+      "iconURL": "https://avatars.githubusercontent.com/u/12554340?s=200&v=4",
+      "tintColor": "EF4136",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "3.0.0",
+          "date": "2024-09-01",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/v3.0.0/Provenance.ipa",
+          "size": 0,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "version": "3.0.0",
+      "versionDate": "2024-09-01",
+      "versionDescription": "",
+      "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/v3.0.0/Provenance.ipa",
+      "size": 0
+    },
+    {
+      "name": "iSH Shell",
+      "bundleIdentifier": "app.ish.iSH",
+      "developerName": "iSH Team",
+      "subtitle": "Linux shell for iOS",
+      "localizedDescription": "Linux shell environment for iOS. Run x86 Linux apps on your iPhone via emulation.",
+      "iconURL": "https://avatars.githubusercontent.com/u/47728890?s=200&v=4",
+      "tintColor": "FFFFFF",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.3.2",
+          "date": "2023-04-10",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/ish-app/ish/releases/download/v1.3.2/iSH.ipa",
+          "size": 0,
+          "minOSVersion": "11.0"
+        }
+      ],
+      "version": "1.3.2",
+      "versionDate": "2023-04-10",
+      "versionDescription": "",
+      "downloadURL": "https://github.com/ish-app/ish/releases/download/v1.3.2/iSH.ipa",
+      "size": 0
+    },
+    {
+      "name": "KodiTV",
+      "bundleIdentifier": "org.xbmc.kodi",
+      "developerName": "XBMC Foundation",
+      "subtitle": "Open-source media center",
+      "localizedDescription": "Kodi is a free and open-source media player and entertainment hub.",
+      "iconURL": "https://kodi.tv/sites/default/files/2024-08/kodi-logo-thumb.png",
+      "tintColor": "2C2C2C",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "21.1",
+          "date": "2024-09-05",
+          "localizedDescription": "",
+          "downloadURL": "https://mirrors.kodi.tv/releases/darwin/arm/kodi-21.1-Omega-arm64.ipa",
+          "size": 0,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "version": "21.1",
+      "versionDate": "2024-09-05",
+      "versionDescription": "",
+      "downloadURL": "https://mirrors.kodi.tv/releases/darwin/arm/kodi-21.1-Omega-arm64.ipa",
+      "size": 0
+    },
+    {
+      "name": "VLC",
+      "bundleIdentifier": "org.videolan.vlc-ios",
+      "developerName": "VideoLAN",
+      "subtitle": "Plays any video format",
+      "localizedDescription": "VLC media player for iOS. Plays virtually any video format with no codec packs needed.",
+      "iconURL": "https://images.videolan.org/images/largeVLC.png",
+      "tintColor": "FF7900",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "3.6.5",
+          "date": "2024-08-15",
+          "localizedDescription": "",
+          "downloadURL": "https://get.videolan.org/vlc-ios/3.6.5/VLC-iOS.ipa",
+          "size": 0,
+          "minOSVersion": "12.0"
+        }
+      ],
+      "version": "3.6.5",
+      "versionDate": "2024-08-15",
+      "versionDescription": "",
+      "downloadURL": "https://get.videolan.org/vlc-ios/3.6.5/VLC-iOS.ipa",
+      "size": 0
+    },
+    {
+      "name": "Aidoku",
+      "bundleIdentifier": "xyz.skitty.Aidoku",
+      "developerName": "Skitty",
+      "subtitle": "Open-source manga reader",
+      "localizedDescription": "Free and open-source manga reader for iOS. Supports a wide variety of sources via plugins.",
+      "iconURL": "https://avatars.githubusercontent.com/u/100459214?s=200&v=4",
+      "tintColor": "FF2D55",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "0.7.4",
+          "date": "2024-11-20",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.7.4/Aidoku.ipa",
+          "size": 0,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "version": "0.7.4",
+      "versionDate": "2024-11-20",
+      "versionDescription": "",
+      "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.7.4/Aidoku.ipa",
+      "size": 0
+    },
+    {
+      "name": "Outrun",
+      "bundleIdentifier": "com.tomn.Outrun",
+      "developerName": "Tom Najdek",
+      "subtitle": "GPS speed tracking",
+      "localizedDescription": "Tracks your speed, distance, and route while running, cycling, or driving.",
+      "iconURL": "",
+      "tintColor": "1ABC9C",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2023-01-01",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/tnajdek/outrun/releases/download/v1.0.0/Outrun.ipa",
+          "size": 0,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "version": "1.0.0",
+      "versionDate": "2023-01-01",
+      "versionDescription": "",
+      "downloadURL": "https://github.com/tnajdek/outrun/releases/download/v1.0.0/Outrun.ipa",
+      "size": 0
+    },
+    {
+      "name": "Feather",
+      "bundleIdentifier": "kh.crysalis.feather",
+      "developerName": "Crysalis",
+      "subtitle": "On-device IPA installer",
+      "localizedDescription": "Free on-device IPA signer and installer. Sideload apps directly from your iPhone.",
+      "iconURL": "https://avatars.githubusercontent.com/u/132487276?v=4",
+      "tintColor": "5856D6",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.4",
+          "date": "2024-12-15",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/khcrysalis/Feather/releases/download/v1.4/feather.ipa",
+          "size": 0,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "version": "1.4",
+      "versionDate": "2024-12-15",
+      "versionDescription": "",
+      "downloadURL": "https://github.com/khcrysalis/Feather/releases/download/v1.4/feather.ipa",
+      "size": 0
+    },
+    {
+      "name": "SideStore",
+      "bundleIdentifier": "com.SideStore.SideStore",
+      "developerName": "SideStore Team",
+      "subtitle": "AltStore alternative",
+      "localizedDescription": "AltStore fork that doesn't require AltServer. Sideload apps with your Apple ID, on-device.",
+      "iconURL": "https://avatars.githubusercontent.com/u/108899723?s=200&v=4",
+      "tintColor": "2E8DEF",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "0.6.0",
+          "date": "2024-10-30",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.6.0/SideStore.ipa",
+          "size": 0,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "version": "0.6.0",
+      "versionDate": "2024-10-30",
+      "versionDescription": "",
+      "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.6.0/SideStore.ipa",
+      "size": 0
+    },
+    {
+      "name": "LiveContainer",
+      "bundleIdentifier": "com.kdt.livecontainer",
+      "developerName": "khanhduytran0",
+      "subtitle": "Run multiple apps in one",
+      "localizedDescription": "Run unsigned IPA files without installing them. Useful for testing and avoiding the 3-app limit.",
+      "iconURL": "https://avatars.githubusercontent.com/u/16142299?v=4",
+      "tintColor": "FF6B6B",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "2.4.7",
+          "date": "2024-12-01",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/khanhduytran0/LiveContainer/releases/download/v2.4.7/LiveContainer.ipa",
+          "size": 0,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "version": "2.4.7",
+      "versionDate": "2024-12-01",
+      "versionDescription": "",
+      "downloadURL": "https://github.com/khanhduytran0/LiveContainer/releases/download/v2.4.7/LiveContainer.ipa",
+      "size": 0
+    },
+    {
+      "name": "TrollStore",
+      "bundleIdentifier": "com.opa334.TrollStore",
+      "developerName": "Lars FrÃ¶der",
+      "subtitle": "Permanent app sideloader",
+      "localizedDescription": "Permanently sideload apps on iOS 14.0-17.0 using CoreTrust exploit. No re-signing needed.",
+      "iconURL": "https://avatars.githubusercontent.com/u/8990652?v=4",
+      "tintColor": "FF3B30",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "2.1.1",
+          "date": "2024-08-15",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/opa334/TrollStore/releases/download/2.1.1/TrollStore.tipa",
+          "size": 0,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "version": "2.1.1",
+      "versionDate": "2024-08-15",
+      "versionDescription": "",
+      "downloadURL": "https://github.com/opa334/TrollStore/releases/download/2.1.1/TrollStore.tipa",
+      "size": 0
+    },
+    {
+      "name": "FontInstaller",
+      "bundleIdentifier": "com.shanedouglas.fontinstaller",
+      "developerName": "Shane Douglas",
+      "subtitle": "Custom fonts on iOS",
+      "localizedDescription": "Install custom fonts on iOS that you can use in apps that support custom fonts.",
+      "iconURL": "",
+      "tintColor": "2C2C2C",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2023-06-15",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/shanedouglas/FontInstaller/releases/download/v1.0/FontInstaller.ipa",
+          "size": 0,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "version": "1.0",
+      "versionDate": "2023-06-15",
+      "versionDescription": "",
+      "downloadURL": "https://github.com/shanedouglas/FontInstaller/releases/download/v1.0/FontInstaller.ipa",
+      "size": 0
+    },
+    {
+      "name": "Snapchat-Like Filters",
+      "bundleIdentifier": "com.demo.placeholder1",
+      "developerName": "Placeholder",
+      "subtitle": "Replace this entry",
+      "localizedDescription": "PLACEHOLDER â replace with your own app entry.",
+      "iconURL": "",
+      "tintColor": "",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2024-01-01",
+          "localizedDescription": "",
+          "downloadURL": "https://example.com/app.ipa",
+          "size": 0,
           "minOSVersion": ""
         }
       ],
       "version": "1.0.0",
-      "versionDate": "Idk",
+      "versionDate": "2024-01-01",
       "versionDescription": "",
-      "downloadURL": "https://ipogo.app/download/ipogo-4.2.4.ipa",
-      "size": "Idk"
+      "downloadURL": "https://example.com/app.ipa",
+      "size": 0
     }
   ]
 }
